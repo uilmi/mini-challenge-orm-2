@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users | All</title>
+</head>
+
+<body>
+    <nav>
+        <a href="/">HOME</a> || 
+        <a href="/users/create">CREATE NEW USER</a>
+    </nav>
+    <% users.forEach((i)=> { %>
+        <div>
+            <h3>
+                ID: <%= i.id %> || User: <%= i.username %> || Password: <%= i.password %>
+            </h3>
+            <a href="/users/<%= i.id %>">
+                User Profile 
+            </a> || 
+            <a href="/users/update/<%= i.id %>">
+                Edit User
+            </a>||
+            <a href="/users/delete/<%= i.id %>">
+                Remove User
+            </a>
+            <hr>
+        </div>
+        <% }) %>
+</body>
+
+</html>
