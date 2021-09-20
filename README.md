@@ -1,4 +1,4 @@
-# Mini Challenge 6 Part 2 - Mengirim form untuk melakukan update & delete data
+# Mini Challenge 6 Part 2 - Form update delete data (plus create and read)
 
 This app is connected to postgres DB on dev mode:
 
