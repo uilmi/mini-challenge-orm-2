@@ -1,6 +1,6 @@
 # Mini Challenge 6 Part 2 - Form update delete data (plus create and read)
 
-This app is connected to postgres DB on dev mode:
+This app is connected to postgres DB on this server (dev mode):
 
      "database": "ulul_db",
      "host": "sql.madecanggih.dev"
