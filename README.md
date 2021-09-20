@@ -2,8 +2,8 @@
 
 This app is connected to postgres DB on dev mode:
 
-    > "database": "ulul_db",
-    > "host": "sql.madecanggih.dev"
+     "database": "ulul_db",
+     "host": "sql.madecanggih.dev"
 
 GET /users/delete/:id akan menghapus data user dengan id tertentu dari tabel.
 GET /users/update/:id akan menampilkan form ejs yang otomatis berisi data user yang memiliki id tertentu.
